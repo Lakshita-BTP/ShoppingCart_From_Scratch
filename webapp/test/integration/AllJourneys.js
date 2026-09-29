@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "sap.ui.demo.cart.shoppingcart.view.",
+		viewNamespace: "djp.ui.demo.cart.view.",
 		autoWait: true
 	});
 });

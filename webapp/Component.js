@@ -1,10 +1,10 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
-    "sap/ui/demo/cart/shoppingcart/model/models"
+    "djp/ui/demo/cart/model/models"
 ], (UIComponent, models) => {
     "use strict";
 
-    return UIComponent.extend("sap.ui.demo.cart.shoppingcart.Component", {
+    return UIComponent.extend("djp.ui.demo.cart.Component", {
         metadata: {
             manifest: "json",
             interfaces: [
